@@ -1,0 +1,10 @@
+{
+  "name": "pi-context-viewer",
+  "version": "0.1.0",
+  "description": "Capture and inspect the exact payload sent to the LLM on each provider request. Adds /context, /context latest, /context breakdown.",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
